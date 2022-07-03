@@ -3,7 +3,7 @@ window.onload = function() {
 
     btnOut.addEventListener('click', function(e) {
         e.preventDefault();
-        localStorage.setItem('logged', false);
+        localStorage.removeItem('logged');
         window.location.href = './index.html';
     });
 }
