@@ -27,6 +27,7 @@ window.onload = function() {
                 if (data.error === true) {
                     alert(data.message);
                 } else {
+                    localStorage.setItem('logged', true);
                     window.location.href = './dashboard.html';
                 }
             })
@@ -35,4 +36,8 @@ window.onload = function() {
             }
             );
     })
+
+    if (localStorage.getItem('logged') === 'true') {
+        window.location.href = './dashboard.html';
+    }
 }
