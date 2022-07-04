@@ -8,7 +8,7 @@ window.onload = function() {
         localStorage.removeItem('logged');
         window.location.href = './index.html';
     });
-
+    
     function createRow(user) {
         const row = document.createElement('tr');
         var cell = document.createElement('td');
@@ -42,8 +42,4 @@ window.onload = function() {
         );
     }
     fillTable();
-
-
-    
-
 }
