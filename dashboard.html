@@ -9,8 +9,29 @@
     <title>Dashboard</title>
 </head>
 <body>
-    <h1>Hi - here dashboard</h1>
-    <button id="log-out-btn">Cerrar Sesion</button>
+    <nav>
+        <div id="user">
+            <p>Bienvenida Valeria!</p>
+            <button id="log-out-btn">Cerrar Sesion</button>
+        </div>
+    </nav>
+    <div class="content">
+        <h1>Lista de Usuarios</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Email</th>
+                    <th>Ciudad</th>
+                    <th>Teléfono</th>
+                    <th>Sitio Web</th>
+                    <th>Compañía</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+            </tbody>
+        </table>
+    </div>
 </body>
 <script src="dashboard.js"></script>
 </html>
