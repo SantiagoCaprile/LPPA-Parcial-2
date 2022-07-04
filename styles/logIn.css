@@ -1,3 +1,56 @@
+body{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+fieldset{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+input:focus{
+    outline: none;
+    background-color: grey;
+    color: white;
+}
+button{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+button:hover, button:focus{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
 .error{
     color: red;
 }
