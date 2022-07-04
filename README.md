@@ -9,6 +9,6 @@ Technologies used:
 
 Try it out:
 
-Link: [https://flyinsoup.github.io/LPPA-Parcial-2/](GithubPage)
+Link: [GithubPage Deploy](https://flyinsoup.github.io/LPPA-Parcial-2/)
 
 
