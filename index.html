@@ -9,20 +9,22 @@
     <title>Log In</title>
 </head>
 <body>
-    <form>
+    <div class="log-in-form">
         <h2>Iniciar Sesión</h2>
-        <fieldset>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Email">
-            <p id="email-error" class="error hidden"></p>
-        </fieldset>
-        <fieldset>
-            <label for="pass">Contraseña</label>
-            <input type="password" id="pass" name="pass" placeholder="Contraseña">
-            <p id="pass-error" class="error hidden"></p>
-        </fieldset>
+        <form>
+            <fieldset>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email">
+                <p id="email-error" class="error hidden"></p>
+            </fieldset>
+            <fieldset>
+                <label for="pass">Contraseña</label>
+                <input type="password" id="pass" name="pass" placeholder="Contraseña">
+                <p id="pass-error" class="error hidden"></p>
+            </fieldset>
+        </form>
         <button id="log-in-btn">Iniciar Sesión</button>
-    </form>
+    </div>
     <p class="error hidden" id="error-grande">Credenciales invalidas</p>
 </body>
 <script src="/logIn.js"></script>
