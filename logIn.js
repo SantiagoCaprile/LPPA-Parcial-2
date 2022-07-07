@@ -16,6 +16,8 @@ window.onload = function() {
 
     function validateForm () {
         var valido = true;
+        emailError.classList.add('hidden');
+        passError.classList.add('hidden');
         if (emailField.value === '') {
             emailError.innerHTML = 'Email es requerido'; 
             emailError.classList.remove('hidden');
