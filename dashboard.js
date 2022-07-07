@@ -6,7 +6,8 @@ window.onload = function() {
     btnOut.addEventListener('click', function(e) {
         e.preventDefault();
         localStorage.removeItem('logged');
-        window.location.href = './index.html';
+        location.replace('./index.html');
+        //window.location.href = './index.html';
     });
     
     function createRow(user) {
@@ -38,6 +39,9 @@ window.onload = function() {
             data.data.forEach(user => {
                 tableBody.appendChild(createRow(user));
             });
+        })
+        .catch((err) => {
+            console.log(err);
         }
         );
     }

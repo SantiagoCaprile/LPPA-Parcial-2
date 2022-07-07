@@ -10,7 +10,8 @@ window.onload = function() {
     //password: lppa2022
 
     if (localStorage.getItem('logged') == 'true') {
-        window.location.href = './dashboard.html';
+      location.replace('./dashboard.html');
+      //window.location.href = './dashboard.html';
     }
 
     function validateForm () {
