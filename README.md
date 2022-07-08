@@ -11,4 +11,6 @@ Try it out:
 
 Link: [GithubPage Deploy](https://flyinsoup.github.io/LPPA-Parcial-2/)
 
+(Sorry I forgot my name haha)
 
+Student: Santiago Caprile
