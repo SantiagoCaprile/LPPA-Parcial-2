@@ -9,8 +9,6 @@ Technologies used:
 
 Try it out:
 
-Link: [GithubPage Deploy](https://flyinsoup.github.io/LPPA-Parcial-2/)
-
-(Sorry I forgot my name haha)
+Link: [GithubPage Deploy](https://santiagocaprile.github.io/LPPA-Parcial-2/)
 
 Student: Santiago Caprile
