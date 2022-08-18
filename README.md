@@ -11,4 +11,8 @@ Try it out:
 
 Link: [GithubPage Deploy](https://santiagocaprile.github.io/LPPA-Parcial-2/)
 
+There's only one valid user:
+email: valeria@gmail.com 
+password: lppa2022
+
 Student: Santiago Caprile
